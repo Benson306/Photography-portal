@@ -1,0 +1,210 @@
+
+body{
+  background-color:#808080;
+  font-family: arial;
+  box-sizing: border-box;
+  color: black;
+  margin:20px 30px;
+  line-height: 1.4;
+  padding: 10px;
+}
+.row{
+  background: rgba(44,62,80,0.7);
+	height: 1100px;
+  width: 100%;
+	border: 1px;
+	border-radius: 10px;
+	padding: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+.leftbar{
+  display: flex;
+  background: rgba(44,62,80,0.7);
+	height: 80%;
+	border: 1px ;
+	border-radius: 10px;
+	padding: 5px;
+  flex:1;
+  margin: 5px;
+  flex-direction:column;
+  width:30%;
+
+}
+
+ 
+
+}
+.centerbar{
+  background: rgba(44,62,80,0.7);
+	height: 100%;
+	border: 1px;
+	border-radius: 10px;
+	padding: 5px;
+  margin: 5px;
+  width:40%;
+
+
+
+}
+.rightbar{
+  background: rgba(44,62,80,0.7);
+	height: 90%;
+	border: 1px ;
+	border-radius: 10px;
+	padding: 5px;
+  margin: 5px;
+  width:50%;
+}
+.btn{
+  color: white;
+  background-color: green;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+.logo_img{
+  display:block;
+  margin: 5px;
+  border:1px;
+  border-radius: 10px;
+}
+.logo_img img{
+  width: 100%;
+  border:1px;
+  border-radius: 10px;
+}
+.profile_sidebar{
+  background-color:white;
+  border:1px;
+  border-radius:5px;
+  margin: 10px;
+  text-align: center;
+  width:96%;
+
+}
+.profile_sidebar img{
+  width: 200px;
+  height:200px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.title{
+display:block;
+margin: 5px;
+text-align: center;
+padding: 10px;
+border:1px;
+border-radius: 10px;
+text-transform: uppercase;
+background-color:white;
+width:100%;
+}
+.title1{
+display:block;
+margin: 5px;
+text-align: center;
+padding: 10px;
+border:1px;
+border-radius: 10px;
+text-transform: uppercase;
+background-color:white;
+width:97%;
+}
+
+.maincontent{
+
+background-color: #ccc;
+padding:5px;
+text-align: center;
+border-radius: 10px;
+height: 60%;
+width:100%;
+}
+
+.essentials{
+  display: flex;
+  width:100%;
+}
+.chat{
+   flex:1;
+  height: 280px;
+  width: 50%;
+  background-color: #a6a6a6;
+  border-radius: 10px;
+  margin: 5px;
+}
+.help{
+ flex:1;
+height: 280px;
+width: 50%;
+background-color: #a6a6a6;
+border-radius: 10px;
+margin: 5px;
+padding: 5px;
+
+}
+.account_info{
+  flex:1;
+ height: 100%;
+ width: 96%;
+ border-radius: 10px;
+ margin: 5px;
+text-align: center;
+padding: 5px;
+  background-color: white;
+}
+
+.btn2{
+background: #00b300;
+height: 50px;
+width: 150px;
+color: white;
+border-radius: 5px;
+position: relative;
+}
+.bids_info{
+flex:1;
+ height: 300px;
+ width: 96%;
+ background-color: #a6a6a6;
+ border-radius: 10px;
+ margin: 5px;
+ position: relative;
+ text-align: center;
+
+}
+.posts_info{
+  flex:1;
+  height: 30%;
+  width: 300px;
+  background-color: #a6a6a6;
+  border-radius: 10px;
+  margin: 5px;
+  height: 100%;
+
+}
+
+.table{
+  text-align: left;
+
+}
+#comment{
+  margin-left: 10%;
+        width:80%;
+        height: 100px;
+        padding: 12px 20px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+}
+.edit_form{
+  
+}
+.container{
+  background-color: #ccc;
+padding:5px;
+}

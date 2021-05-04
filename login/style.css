@@ -1,0 +1,18 @@
+body{ font: 14px arial; }
+.login_form{
+  border: 2px;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+.wrapper{
+border-left:30%; 
+width: 40%;
+
+}
+.signup_form{
+  border: 2px;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
